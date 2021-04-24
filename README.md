@@ -4,18 +4,21 @@ React Axios Tutorial - Learn to make HTTP GET and POST Requests using Axios libr
 ## Step by Step Tutorial
 [React Axios Tutorial - Make HTTP GET and POST Requests](https://www.positronx.io/react-axios-tutorial-make-http-get-post-requests/)
 
+## Install MongoDB
+- set path for windows
 
-### `npm start`
+## Install Nodemon globally
+- npm install -g nodemon
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it on the browser.
-
+1. Start React Client, at root of project `npm start`
+2. cd server `mongod`
+3. in another terminal, `nodemon server`
 
 ### Start Node Server
 
 - Get inside the `server` folder
 - Run `npm install` to install required packages 
 - Open terminal run `nodemon`
-- Open other terminal run `mongod`
+- Open another terminal run `mongod`
 
 Open API URL on [http://localhost:4000/users](http://localhost:4000/users)
