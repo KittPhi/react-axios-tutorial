@@ -51,11 +51,11 @@ export default class CreateUser extends Component {
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <label>Add User Name</label>
-                        <input type="text" value={this.state.name} onChange={this.onChangeUserName} className="form-control" />
+                        <input required type="text" value={this.state.name} onChange={this.onChangeUserName} className="form-control" />
                     </div>
                     <div className="form-group">
                         <label>Add User Email</label>
-                        <input type="text" value={this.state.email} onChange={this.onChangeUserEmail} className="form-control" />
+                        <input required type="text" value={this.state.email} onChange={this.onChangeUserEmail} className="form-control" />
                     </div>
                     <div className="form-group">
                         <input type="submit" value="Create User" className="btn btn-success btn-block" />
